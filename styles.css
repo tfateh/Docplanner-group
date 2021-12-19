@@ -1,0 +1,128 @@
+header{
+    position: fixed;
+    opacity: 70%;
+}
+
+.logo{
+    width: 450px;
+    height: 40px;
+}
+.nav-it{
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+
+ .nav-ber {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+margin-left: 400px;
+    }
+     li{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;        
+    }
+    a.go{
+        text-decoration: none;
+        color: black;
+    }
+
+a.go:hover, a.go:active {
+    color:#DC143C;
+    text-decoration: underline;
+}
+.drop-down{
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+    position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a{
+    color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .symbol{
+      
+      margin-top: 100px;
+      padding: 50px;
+      margin-left: 40%;
+      margin-right: 10%;
+  }
+h1{
+    margin-left:30%;
+   margin-right: 10%;
+   /* margin-top: 10px; */
+    /* padding-top: 10px; */
+}
+.column{
+    display: flex;
+    flex-direction: row;
+}
+p{
+    width:900Px;
+    height: auto;
+    /* margin-left: 100px; */
+    margin: 100px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+/* .deco{
+    padding-left: 150px;
+    padding-right: 150px;
+padding-bottom: 100px;
+    
+} */
+.column-3{
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+}
+.column-0{
+    border-radius: 15px;
+    background-color: rgb(50, 53, 149);
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+  margin: 10px;
+}
+.column-1{
+    border-radius: 10px;
+    background-color: rgb(50, 155, 149);
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+  margin: 10px;
+}
+.column-2{
+    border-radius: 10px;
+    background-color: rgb(131, 200, 230);
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+  margin: 10px;
+}
+#domain-switcher{
+    border: none;
+    background-color: blue;
+}
